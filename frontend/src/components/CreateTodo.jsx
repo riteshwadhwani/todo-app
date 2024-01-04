@@ -34,7 +34,7 @@ export function CreateTodo(props) {
                     description: description
                 }),
                 headers: {
-                    "Content-type": "application/json"
+                    "Content-Type": "application/json"
                 }
             })
                 .then(async function(res) {
